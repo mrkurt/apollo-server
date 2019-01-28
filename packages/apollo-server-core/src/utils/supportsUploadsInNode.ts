@@ -13,9 +13,10 @@ const supportsUploadsInNode = (() => {
     if (nodeMajor < 8 || (nodeMajor === 8 && nodeMinor < 5)) {
       return false;
     }
+    return true;
   }
 
-  // hack to disable loading qraphqluploader lib
+  // not node
   return false;
 })();
 
