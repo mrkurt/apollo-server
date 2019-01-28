@@ -15,7 +15,8 @@ const supportsUploadsInNode = (() => {
     }
   }
 
-  return true;
+  // hack to disable loading qraphqluploader lib
+  return false;
 })();
 
 export default supportsUploadsInNode;

@@ -1,0 +1,31 @@
+{
+  "name": "apollo-server-flyio",
+  "version": "2.3.2",
+  "description": "Production-ready Node.js GraphQL server for Fly edge apps",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apollographql/apollo-server/tree/master/packages/apollo-server-flyio"
+  },
+  "keywords": [
+    "GraphQL",
+    "Apollo",
+    "Server",
+    "Fly",
+    "Edge apps",
+    "Javascript"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apollographql/apollo-server/issues"
+  },
+  "homepage": "https://github.com/apollographql/apollo-server#readme",
+  "dependencies": {
+    "apollo-server-core": "file:../apollo-server-core",
+    "apollo-server-env": "file:../apollo-server-env"
+  },
+  "peerDependencies": {
+    "graphql": "^0.12.0 || ^0.13.0 || ^14.0.0"
+  }
+}
